@@ -1,0 +1,49 @@
+body {
+  /* font-family: "Montserrat", sans-serif; */
+  font-family: "Courgette", cursive;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+#navbar {
+  width: 100%;
+  padding-bottom: 0px;
+  padding-top: 0px;
+  background-color: white;
+  opacity: 0.5;
+  position: relative;
+}
+
+#nav-brand {
+  cursor: default;
+  padding-bottom: 0px;
+  padding-top: 0px;
+  font-size: 200%;
+  font-weight: bolder;
+  /* font-family: "Skranji", cursive;
+   */
+  font-family: "Courgette", cursive;
+}
+
+.navigation-items {
+  color: rgba(0, 0, 0, 1) !important;
+  cursor: pointer;
+  font-size: 20px;
+  font-family: "Courgette", cursive;
+}
+
+.navigation-items:hover {
+  transform: scale(1.1);
+}
+
+#adminBtn {
+  position: absolute;
+  right: 7px;
+  top: 5px;
+}
+
+.card-title,
+.accordion-button {
+  font-size: 18px !important;
+  font-weight: 700;
+}

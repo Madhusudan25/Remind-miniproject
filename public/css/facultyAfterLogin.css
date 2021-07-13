@@ -1,0 +1,133 @@
+input,
+textarea {
+  text-transform: capitalize;
+}
+
+.profile {
+  display: inline;
+  text-align: right;
+}
+
+.header {
+  color: black;
+}
+.container {
+  max-width: initial;
+  padding: 0;
+}
+
+.row {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.append {
+  position: absolute;
+  top: 11px;
+  right: 3px;
+}
+
+#profilepic {
+  border-radius: 100%;
+  margin-right: 7px;
+  margin-bottom: 3px;
+  border: 1px solid black;
+}
+
+.display-card {
+  margin-top: 15px;
+}
+
+.card-title {
+  font-size: 16px;
+}
+
+.columns {
+  border: 1px solid black;
+  margin: 5px;
+  padding: 15px;
+  font-size: 13px;
+  border-radius: 2%;
+}
+
+.list-group-item {
+  text-align: left;
+}
+
+input[type="checkbox"] {
+  margin: 0 10px;
+  position: relative;
+  top: 3px;
+}
+.btn {
+  width: 100px;
+}
+
+.select2-container .select2-selection--multiple {
+  min-height: 38px;
+  width: 209px !important;
+  border: 1px solid gray;
+  text-align: left;
+}
+
+.select2-dropdown {
+  width: 209px !important;
+  /* height: 80px; */
+  font-size: 10px;
+}
+#assignment-selectall {
+  font-size: 11px;
+  margin-left: 191px;
+  margin-top: 4px;
+  width: auto !important;
+}
+
+.postedTime {
+  color: green;
+}
+
+.deadlineTime {
+  color: chocolate;
+}
+
+.displaySubject {
+  color: green;
+}
+
+.deleteListIcon {
+  position: absolute;
+  right: 52px;
+  color: grey;
+  cursor: pointer;
+}
+
+.deleteIcon {
+  float: right;
+  color: grey;
+  cursor: pointer;
+}
+
+.deleteListIcon:hover,
+.deleteIcon:hover {
+  color: red;
+}
+
+.studentAssignmentli:hover {
+  transform: scale(1.02);
+  background-color: #e8f6ef;
+}
+
+@media only screen and (max-width: 990px) {
+  .profile {
+    display: block;
+    text-align: center;
+  }
+  .append {
+    margin-left: 15px;
+    padding-bottom: 10px;
+    position: relative;
+  }
+  .row {
+    width: 100%;
+  }
+}
